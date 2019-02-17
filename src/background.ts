@@ -9,7 +9,7 @@ chrome.runtime.onMessage.addListener(request => {
       {
         const { user } = request;
         const w = 400;
-        const h = 520;
+        const h = 600;
         const left = screen.width / 2 - w / 2;
         const top = screen.height / 2 - h / 2;
         chrome.windows.create({
