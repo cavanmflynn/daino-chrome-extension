@@ -1,0 +1,11 @@
+.tip-button
+{
+    cursor: pointer;
+    background: url('chrome-extension://__MSG_@@extension_id__/images/dai.png');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    width: 18px;
+    height:18px;
+    font-size:9px;
+    border-radius:9px;
+}
